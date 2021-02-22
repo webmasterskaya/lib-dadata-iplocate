@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="library" method="upgrade">
+    <name>LIB_DADATA_IPLOCATE</name>
+    <libraryname>dadata_iplocate</libraryname>
+    <author>Artem Vasilev - Webmasterskaya</author>
+    <authorEmail>dev@webmasterskaya.xyz</authorEmail>
+    <authorUrl>https://webmasterskaya.xyz</authorUrl>
+    <creationDate>22.02.2021</creationDate>
+    <copyright>Copyright (C) 2020 Webmasterskaya. All rights reserved.</copyright>
+    <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+    <version>__DEPLOYMENT_VERSION__</version>
+    <description>LIB_DADATA_IPLOCATE_XML_DESCRIPTION</description>
+
+    <scriptfile>script.php</scriptfile>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.lib_dadata_iplocate.ini</language>
+        <language tag="en-GB">en-GB/en-GB.lib_dadata_iplocate.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.lib_dadata_iplocate.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.lib_dadata_iplocate.sys.ini</language>
+    </languages>
+
+    <files>
+        <file>IPLocate.php</file>
+    </files>
+</extension>
