@@ -8,7 +8,7 @@
     <creationDate>22.02.2021</creationDate>
     <copyright>Copyright (C) 2020 Webmasterskaya. All rights reserved.</copyright>
     <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
-    <version>1.0.0</version>
+    <version>__DEPLOYMENT_VERSION__</version>
     <description>LIB_DADATA_IPLOCATE_XML_DESCRIPTION</description>
 
     <scriptfile>script.php</scriptfile>
