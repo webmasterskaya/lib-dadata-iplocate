@@ -23,4 +23,10 @@
     <files>
         <file>IPLocate.php</file>
     </files>
+
+    <updateservers>
+        <server type="extension" priority="1" name="lib-dadata-iplocate">
+            https://webmasterskaya.xyz/updates?element=lib-dadata-iplocate
+        </server>
+    </updateservers>
 </extension>
