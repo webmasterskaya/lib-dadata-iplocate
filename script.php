@@ -1,7 +1,7 @@
 <?php
 /*
  * @package    Joomla.DaData - IPLocate
- * @version    __DEPLOYMENT_VERSION__
+ * @version    1.0.0
  * @author     Artem Vasilev - webmasterskaya.xyz
  * @copyright  Copyright (c) 2018 - 2021 Webmasterskaya. All rights reserved.
  * @license    GNU/GPL license: https://www.gnu.org/copyleft/gpl.html
@@ -16,7 +16,7 @@ class dadata_iplocateInstallerScript
 	 *
 	 * @var  string
 	 *
-	 * @since __DEPLOYMENT_VERSION__
+	 * @since 1.0.0
 	 */
 	protected $minimumPhp = '7.1';
 
@@ -25,7 +25,7 @@ class dadata_iplocateInstallerScript
 	 *
 	 * @var string
 	 *
-	 * @since __DEPLOYMENT_VERSION__
+	 * @since 1.0.0
 	 */
 	protected $minimumJoomla = '3.9.0';
 
@@ -35,7 +35,7 @@ class dadata_iplocateInstallerScript
 	 * @return bool
 	 *
 	 * @throws Exception
-	 * @since  __DEPLOYMENT_VERSION__
+	 * @since  1.0.0
 	 */
 	function preflight()
 	{

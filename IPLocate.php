@@ -1,7 +1,7 @@
 <?php
 /*
  * @package    Joomla.Library - DaData\IPLocate
- * @version    __DEPLOYMENT_VERSION__
+ * @version    1.0.0
  * @author     Artem Vasilev - webmasterskaya.xyz
  * @copyright  Copyright (c) 2018 - 2021 Webmasterskaya. All rights reserved.
  * @license    GNU/GPL license: https://www.gnu.org/copyleft/gpl.html
@@ -19,7 +19,7 @@ defined('_JEXEC') or die;
  * Класс определяет местоположение пользователя по IP и возвращает информацию,
  * полученную из сервиса DaData.ru
  *
- * @since __DEPLOYMENT_VERSION__
+ * @since 1.0.0
  */
 class IPLocate
 {
@@ -36,7 +36,7 @@ class IPLocate
 	 * @return array | null
 	 * @throws Exception
 	 *
-	 * @since         __DEPLOYMENT_VERSION__
+	 * @since         1.0.0
 	 */
 	public static function address(string $token, string $ip = ''): ?array
 	{
@@ -89,7 +89,7 @@ class IPLocate
 	 *
 	 * @return string|bool
 	 *
-	 * @since __DEPLOYMENT_VERSION__
+	 * @since 1.0.0
 	 */
 	public static function getClientIp()
 	{
@@ -125,7 +125,7 @@ class IPLocate
 	 * @return string|bool
 	 * @throws Exception
 	 *
-	 * @since __DEPLOYMENT_VERSION__
+	 * @since 1.0.0
 	 */
 	protected static function makeRequest(
 		string $token,
